@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="tran.css">
+</head>
+<body>
+    
+ <!-------------------------------------------------------------------for Header--------------------------------------------------------------->
+    <div class="main">
+
+            <div class="logo">
+                <img src="l.png" alt="">
+            </div>
+
+        
+             <ul class='button'>
+                <li  class="active"><a href="sampl.html" class="anchor">Home</a></li>
+                <li  class="active"><a href="Transaction.html" class="anchor">Transaction</a></li>
+                <li  class="active"><a href="aboutUs.html" class="anchor">About</a></li>
+                <li  class="active"><a href="contactUs.html" class="anchor">Contact Us</a></li>
+                <li  class="active"><a href="Home.html" class="anchor">Log Out</a></li>
+            </ul>
+
+
+    </div>
+
+    <!--------------------------------------------------------------- for Balance show ------------------------------------------------------->
+   <div class="m">
+       <div  class="balance" >
+              <p style="text-align: center; font-size: 55px;">Total Balance </p>
+              <p class="commonBalance" id="totalBalance" style="font-size: 55px;">0</p>
+       </div>
+
+       <div  class="depositBalance" >
+        <p style="text-align: center;">Total Deposit </p>
+        <p  class="commonBalance"  id="depositBalance">0</p>
+      </div>
+
+      <div  class="withdrawnBalance">
+        <p style="text-align: center;">Total Withdrawn </p>
+        <p  class="commonBalance" id="withdrawBalance">0</p>
+     </div>
+           
+          
+          
+   <!-- -----------------------------------------------------------for table------------------------------------------------------------------>
+          
+          <div class="deposit">
+                <!-------------------------------------------- for Input Table-------------------------------------------------->
+
+                    <table border="0" width="100%" bgcolor="green">
+                        <tr>
+                                <th width="25%">Deposit/Withdraw</th>
+                                <th width="25%">Transaction Amount</th>
+                                <th width="25%">Description</th>
+                                <th width="25%">Proceed</th>
+                        </tr>
+                        <br> 
+
+                         <tr>
+
+                                
+                                <td width="25%" class="t"> 
+                                    <select name="select" id="option" class="select" >
+                                        <option value="" >Choose an Option</option>
+                                        <option value="1">DEPOSIT</option>   
+                                        <option value="2">WITHDRAWN</option>  
+                                    </select>  <br><br>
+                                </td>
+
+                                <td width="25%" class="t"  class="select"> <input type="number" id="balance"> </td>
+                                <td width="25%" class="t"  class="select"> <input type="text"   id="description"></td>
+                                <td width="25%" class="t"> <input type="submit" value="SUBMIT" class="click" onclick="return main() "> 
+                                                           <input type="submit" value="RESET" class="click"  onclick="return blank()" > </td>
+                         </tr>
+           
+                    </table>
+                   
+                    <p id='zero' style="color: orangered; text-align: center; background-color: white;"></p>
+    
+                    <!-------------------------------------------- for Transactiontable-------------------------------------------------->
+
+                   <table id="t1" border="1px" width="100%" bgcolor="white">
+                        <tr>
+                            <th  width="35%" >Transaction Description</th>
+                            <th  width="25%" >Purpose</th>
+                            <th  width="20%" >Date</th>
+                            <th  width="20%" >Time</th>
+                        </tr>
+                  </table>
+
+            </div>
+     </div>
+
+
+     <!--------------------------------------------------------------- for footer------------------------------------------------------------->
+
+     <div class="footer">
+        <table border="0" width="100%" bgcolor= #172337>
+            <tr>
+               
+                <td width="13.75%"><ul><li class="footerHead"><font color="grey">ABOUT</font></li></ul></td>
+                <td width="13.75%"><ul><li class="footerHead"><font color="grey">HELP</font></li></ul></td>
+                <td width="13.75%"><ul><li class="footerHead"><font color="grey">PRODUCTS</font></li></ul></td>
+                <td width="13.75%"><ul><li class="footerHead"><font color="grey">SOCIAL</font></li></ul></td>
+                <td width="22.5% "><ul><li class="footerHead"><font color="grey">Mail Us:</font></li></ul></td>
+                <td width="22.5% "><ul><li class="footerHead"><font color="grey">OUR OFFERINGS : </font></li></ul></td>
+            </tr>
+
+           
+
+            <tr>
+                <td width="13.75%">
+                    <ul>
+                        <a href="" class="h"><li > Contact Us</li></a><br>
+                        <a href="" class="h"><li > About Us</li></a><br>
+                        <a href="" class="h"><li > Careers</li></a><br>
+                        <a href="" class="h"><li > Investor Relation</li></a><br>
+                        <a href="" class="h"><li > News Room</li></a><br>
+                    </ul>
+                </td>
+     
+                 
+                 <td width="13.75%">
+                    
+                    <ul>
+                         <a href="" class="h"><li >FAQs</li></a><br>
+                         <a href="" class="h"><li >Customer Care</li></a><br>
+                         <a href="" class="h"><li >Locate Us</li></a><br>
+                         <a href="" class="h"><li >Active Channel Partners</li></a><br>
+                         <a href="" class="h"><li >Feedback</li></a><br>
+                    </ul>
+                     
+                 </td>
+                 
+                 
+         
+                 <td width="13.75%">
+                         <ul>
+                              <a href="" class="h"><li >Credit Card</li></a><br>
+                              <a href="" class="h"><li >Internet Banking</li></a><br>
+                              <a href="" class="h"><li >Mobile Banking</li></a><br>
+                              <a href="" class="h"><li >Savings  Accounts</li></a><br>
+                              <a href="" class="h"><li >Current Accounts</li></a><br>
+                              <a href="" class="h"><li > Women's Account</li></a><br>
+                         </ul>    
+                 </td>
+                 
+                 <td width="13.75%">
+                         <ul>
+                            <a href="" class="h"><li >Facebook</li></a><br>
+                            <a href="" class="h"><li >Twitter</li></a><br>
+                            <a href="" class="h"><li >YouTube</li></a><br>
+                         </ul>
+                 </td>
+                 <hr>
+                 
+                  <td width="22.5%">
+                         <ul>
+                             <li class="w" >SMART INDIA BANK,</li>
+                             <li class="w">smartIndia2020@gmail.com</li>
+                             <li class="w">BTM Lay Out,2nd Stage,</li>
+                             <li class="w">Central Silk Board,</li>
+                             <li class="w">Bengaluru, 560068,</li>
+                             <li class="w">Karnataka, India.</li>
+                         </ul>
+                 </td>
+                 
+                 <td width="22.5%">
+                       
+                            <ul>
+                                <li class="w">  Express FD,Personal Loan,Car Loan,Home Loan, </li>
+                                <li class="w"> Savings Account,Credit Card,ASAP Savings Account,</li>
+                                <li class="w"> FD, FD Interest Rates,</li>
+                                <li class="w"> Education Loan, Current Account, Fastag, </li>
+                                <li class="w"> Trade & Forex, CMS    </li>
+                            </ul>
+                            
+                     
+                 </td>
+             </tr>
+        </table>  
+     </div>
+</body>
+<script src="main.js"></script>
+</html>

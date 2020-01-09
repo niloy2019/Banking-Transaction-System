@@ -1,0 +1,342 @@
+/*---------------------------------------------------------for Header-------------------------------------------------------------------------*/
+
+.main{
+    max-width: 100%;
+    /* margin: auto; */
+    height: 80px;
+    background-color: rgb(52, 52, 153);
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 125px;
+    height: 70px;
+    margin: 10px;
+    background-color: blue;
+}
+
+
+.button{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+   
+}
+
+.active{
+    display: inline-block;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+    padding : 5px 20px;
+    /* border: 1px solid transparent; */
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*---------------------------------------------------------for BODY-------------------------------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+ 
+header{
+    /* background-image: url(background.jpg); */
+    /* /* height: 100vh; */
+    background-size: cover;
+    background-position: center;
+}
+
+.deposit{
+    position: absolute;
+    top :40%;
+    left: 0%;
+    width: 100%;
+   
+}
+.m{ 
+    height: 1000px;
+    width: 100%;
+    /* background-color: grey; */
+}
+
+/*-------------------for styling the Total Balance,Deposit Balance,Withdraw Balance -----------------------------------------*/
+.balance{
+    position: absolute;
+    top :25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: white;
+}
+
+
+.depositBalance{
+    position: absolute;
+    top :25%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: white;
+
+}
+
+.withdrawnBalance{
+    position: absolute;
+    top :25%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: white;
+
+}
+
+.commonBalance{
+    text-align: center; 
+    color: skyblue;
+}
+
+.m{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(home.jpg);
+    background-size: cover;
+}
+
+
+
+
+/*-----------------------------------------------------------for transaction input buttons-------------------------------------------------- */
+#t1{
+    border-collapse: collapse;
+}
+.select{
+    border-radius: 5px; 
+    height: 30px; 
+    width: 250px;
+    border-color: aqua ; 
+    font-family: sans-serif; 
+    font-size: 15px; 
+    cursor: pointer;
+}
+
+.click{
+    border-radius: 5px; 
+    height: 30px; 
+    width: 80px;
+    border-color: aqua ; 
+    font-family: sans-serif; 
+    font-size: 15px; 
+    cursor: pointer; 
+}
+
+
+.click:hover{
+    background-color: brown;
+    color:white;
+    transition: 2s ease;
+}
+
+
+
+/*------------------------------------------------------------ for footer-------------------------------------------------------------------- */
+
+.footerHead{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    background-color: #172337;
+}
+.w{
+    color: white;
+    font-family:sans-serif;
+    font-size: 12px;
+     list-style-type: none;
+     text-align: left;
+    padding: 2px;
+    
+}
+.h{
+      color: white;
+    font-family:sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.h:hover{
+    text-decoration: underline;
+}
+
+
+
+/*-----------------------------------------------------------for transaction table-----------------------------------------------------------*/
+
+.t{
+    text-align: center;
+}
+
+
+
+/*-----------------------------------------------------------for home.html page---------------------------------------------------------------*/
+
+.advertise{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(HomePageImg1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    position: absolute;
+    top :85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease; 
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/*-----------for popup Login------------*/
+
+
+.popup {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+	width: auto;
+	height: auto;
+    position: absolute;
+    top :25%;
+    left: 35%;
+	/* top: 0; */
+	display: none;
+	justify-content: right;
+	align-items: center;
+}
+
+.block {
+	height: 400px;
+	width: 400px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+
+.inputlogin{
+    margin: 15px auto;
+	display: block;
+	width: 80%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.but{
+    height: 40px;
+    width: 85%;
+    border:  5 px blue;
+    cursor: pointer;
+    background-color:green;
+    color: white;
+}
+
+.but:hover{
+    background-color: brown;
+    color: white;
+    transition: 0.5s ease;
+}
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+
+/*-----------for signup--------------*/
+
+.popup2{
+    /* background-color: rgba(0, 0, 0, 0.8); */
+	width: auto;
+	height: auto;
+    position: absolute;
+    top :15%;
+    left: 25%;
+    display: none;
+
+}
+
+.block2{
+    height: 570px;
+	width: 600px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+.s{
+    text-align: right;
+}
+
+.std{
+    height: 50px;
+}
+
+.sub{
+    height: 40px;
+    width: 200px;
+    border:  5 px blue;
+    cursor: pointer;
+    background-color:green;
+    color: white;
+}
+
+.sub:hover{
+    color:white;
+    background-color:brown;
+    transition: 0.5s ease;
+}
+.inputs{
+  /* height: 20px; */
+  height: 30px; 
+  width: 250px;
+  /* border-color: aqua ;  */
+  font-family: sans-serif; 
+  font-size: 15px; 
+
+}
+
+.close2 {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}

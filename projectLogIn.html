@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log In</title>
+    <link rel="stylesheet" href="projectLogIn.css">
+</head>
+<body>
+    
+    <div class="loginBox">
+        <form onsubmit="return checkingLogIn()" action="sampl.html">
+        <h1>Login</h1>   
+                <div class="textBox">
+                <input  type="text" placeholder="Username" name="" value="" id="logUserName">
+               
+            </div>
+
+            <div class="textBox">
+                <input type="password" placeholder="Password" name="" value="" id="passWord">
+            </div>
+            <input type="submit" class="btn" name="" value="Log in" id="logInBtn">
+            <input type="reset" id="rstBtn" class="btn">
+            </form>
+    </div>
+    <div class="l">
+        <span id="logInMsg" style="color:red;"></span>
+    </div>
+    <div class="m">
+        <span id="logInPswd" style="color: red;"></span>
+    </div>
+    <script src="signUpAndLogInValidate.js"></script>
+</body>
+</html>
