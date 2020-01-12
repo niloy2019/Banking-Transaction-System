@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tran.css">
+</head>
+<body>
+    <header>
+
+        <!----------------------------------------------for  the Header(logo and Buttons)------------------------------------------------------->
+    <div class="main">
+
+        <div class="logo">
+            <img src="l.png" alt="">
+        </div>
+
+       
+        <ul class='button'>
+            <li  class="active"><a href="#" class="anchor" >Home</a></li>
+            <li  class="active"><a href="#" class="anchor">Transaction</a></li>
+            <li  class="active"><a href="#" class="anchor">About</a></li>
+            <li  class="active"><a href="#" class="anchor">Contact Us</a></li>
+            <li  class="active"><a href="#" class="anchor">Log Out</a></li>
+        </ul>
+
+    </div>
+
+
+    <div class="title">
+        <!-- <h1>Get a Loan Now</h1> -->
+    </div>
+
+    <!----------------------------------------------------------for logIn and Sign Up Buttons--------------------------------------------------->
+    <div class="login">
+        <a href="#"  class="btn" id="login">Log in</a>
+        <a href="#" class="btn" id="signup">Sign up</a>
+
+    </div>
+
+   <div class="advertise">
+
+    
+   </div>
+
+   <!-------------------------------------------------------------for popup Login------------------------------------------------------------->
+   <div class="popup">
+
+    <div class="block" >
+           <h1 style="color: brown;">Log in</h1>
+           <div class="close">+</div>
+         <img src="user.jpg" alt="" style="width: 250px; height: 200px;">
+
+         <form action="sampl.html" id="loginform">
+            <input type="text" placeholder="Username" class="inputlogin" id="username">
+            <input type="password" placeholder="Password" class="inputlogin" id="password">
+            <p id="val" style="font-size: 12px; color: red; padding-bottom: 10px; "></p>
+            <p></p>
+			 <input type="submit" value="Log in" class="but" onclick="return validate()">
+		</form>
+
+    </div>
+
+   </div>
+
+
+   <!-------------------------------------------------------------for Popup Sign Up Page------------------------------------------------------->
+
+   <div class="popup2">
+
+    <div class="block2">
+           <h1 style="color: brown;">Registration</h1>
+         <div class="close2">+</div>
+        
+
+         <form action="" id="signupform">
+			<table width="100%">
+                <tr class="std">
+                    <th class="s" >Name : </th>
+                    <td><input type="text" class="inputs" placeholder="Name" id="name"></td>
+                </tr>
+
+                 <tr>
+                     <td style="text-align: right;"></td>
+                     <td style="padding: 0px;"><p id="t" style="color: red;font-size: 10px; padding: 0px;"></p></td>
+                 </tr>
+
+                <tr class="std">
+                    <th class="s"> Birth Year: </th>
+                    <td><input type="number" class="inputs" placeholder="Birth Year" id="birthyear"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: right;"></td>
+                    <td style="padding: 0px;"><p id="by" style="color: red;font-size: 10px; padding: 0px;"></p></td>
+                </tr>
+
+                <tr class="std">
+                    <th class="s">Contact Number : </th>
+                    <td><input type="number" class="inputs" placeholder="Contact Number" id="mobile"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: right;"></td>
+                    <td style="padding: 0px;"><p id="n" style="color: red;font-size: 10px; padding: 0px;"></p></td>
+                </tr>
+                <tr class="std">
+                    <th class="s">Address : </th>
+                    <td><input type="text" class="inputs" placeholder="Adddress" id="address"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: right;"></td>
+                    <td style="padding: 0px;"><p id="add" style="color: red;font-size: 10px; padding: 0px;"></p></td>
+                </tr>
+
+                <tr class="std">
+                    <th class="s">Email : </th>
+                    <td><input type="email" class="inputs" placeholder="Email" id="email"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: right;"></td>
+                    <td style="padding: 0px;"><p id="e" style="color: red;font-size: 10px; padding: 0px;"></p></td>
+                </tr>
+
+                <tr class="std">
+                    <th class="s">Username : </th>
+                    <td><input type="text" class="inputs" placeholder="Username" id="username1"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: right;"></td>
+                    <td style="padding: 0px;"><p id="u" style="color: red;font-size: 10px; padding: 0px;"></p></td>
+                </tr>
+
+                <tr class="std">
+                    <th class="s">Password: </th>
+                    <td><input type="password" class="inputs" placeholder="Password" id="password1"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: right;"></td>
+                    <td style="padding: 0px;"><p id="p" style="color: red;font-size: 10px; padding: 0px;"></p></td>
+                </tr>
+
+                <tr class="std">
+                    <th class="s">Confirm Password : </th>
+                    <td><input type="password" class="inputs" placeholder="Confirm Password" id="cpassword"></td>
+                </tr>
+
+                <tr>
+                    <td style="text-align: right;"></td>
+                    <td style="padding: 0px;"><p id="u" style="color: red;font-size: 10px; padding: 0px;"></p></td>
+                </tr>
+
+            </table>
+            <br>
+			 <input type="submit" value="Sign Up" class="sub" onclick="return validateSignUp()">
+		</form>
+
+    </div>
+
+   </div>
+
+
+    <div class="successfull">
+        <div class="close3">+</div>
+        <p>Sign Up Suceessfull !!!  &nbsp;&nbsp;&nbsp; Please Log in to Continue </p> 
+
+    </div>
+</header>    
+
+</body>
+<script src="main.js"></script>
+</html>

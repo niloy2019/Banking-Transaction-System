@@ -29,10 +29,12 @@
     </div>
 
     <!--------------------------------------------------------------- for Balance show ------------------------------------------------------->
-   <div class="m">
+   
+    <div class="m">
+      <div class="all">
        <div  class="balance" >
-              <p style="text-align: center; font-size: 55px;">Total Balance </p>
-              <p class="commonBalance" id="totalBalance" style="font-size: 55px;">0</p>
+              <p style="text-align: center; font-size: 45px;">Total Balance </p>
+              <p class="commonBalance" id="totalBalance" style="font-size: 40px;">0</p>
        </div>
 
        <div  class="depositBalance" >
@@ -94,6 +96,7 @@
                   </table>
 
             </div>
+        </div> 
      </div>
 
 
@@ -161,8 +164,7 @@
                  
                   <td width="22.5%">
                          <ul>
-                             <li class="w" >SMART INDIA BANK,</li>
-                             <li class="w">smartIndia2020@gmail.com</li>
+                             <li class="w">Bank2020@gmail.com</li>
                              <li class="w">BTM Lay Out,2nd Stage,</li>
                              <li class="w">Central Silk Board,</li>
                              <li class="w">Bengaluru, 560068,</li>
@@ -184,6 +186,18 @@
                  </td>
              </tr>
         </table>  
+     </div>
+
+
+     <div class="pin">
+         <h2 style="text-align: center; color: brown;">Verify Yourself</h2><br>
+        <span id="pm">Enter Your Pin : </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number"  id="pinNumber" placeholder="Min 8 Digits">
+
+        <span style="font-size: 12px; height: 50px;">&nbsp;&nbsp;<input type="submit" id='f' onclick="return create()" value="I dont have a Pin"></span><br><br>
+        <p id="errorpin" style="text-align: center; color: red;"></p>
+        <p style="text-align: center;"><input type="submit" value="SUBMIT" class="pinbutton" style="cursor: pointer;" onclick="return pinNumber()"></p>
+
      </div>
 </body>
 <script src="main.js"></script>

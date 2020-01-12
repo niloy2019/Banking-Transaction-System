@@ -1,5 +1,7 @@
 /*---------------------------------------------------------for Header-------------------------------------------------------------------------*/
-
+.logo{
+    padding-left: 0px;
+}
 .main{
     max-width: 100%;
     /* margin: auto; */
@@ -11,8 +13,8 @@
 .logo img{
     float: left;
     width: 125px;
-    height: 70px;
-    margin: 10px;
+    height: 80px;
+    margin: 0px;
     background-color: blue;
 }
 
@@ -112,8 +114,36 @@ header{
     background-size: cover;
 }
 
+/* ---------for Pin Number------------*/
+.pin{
 
+    top :30%;
+    left: 30%;   
+    height: 150px;
+	width: 500px;
+	background-color: white;
+    padding: 20px;
+    /* display: none; */
+    filter: 'blur(4px)';
+    -webkit-filter: 'blur(4px)';
+    position: absolute;
+	border-radius: 4px;
+}
 
+.all{
+    display: none;
+}
+
+.pinbutton{
+    width : 200px;
+    height: 30px;
+    background-color:green;
+    color: wheat;
+}
+
+.f{
+    border: 0px;
+}
 
 /*-----------------------------------------------------------for transaction input buttons-------------------------------------------------- */
 #t1{
@@ -145,6 +175,7 @@ header{
     color:white;
     transition: 2s ease;
 }
+
 
 
 
@@ -226,7 +257,7 @@ header{
 	width: auto;
 	height: auto;
     position: absolute;
-    top :25%;
+    top :20%;
     left: 35%;
 	/* top: 0; */
 	display: none;
@@ -235,7 +266,7 @@ header{
 }
 
 .block {
-	height: 400px;
+	height: 425px;
 	width: 400px;
 	background-color: white;
 	text-align: center;
@@ -248,7 +279,7 @@ header{
     margin: 15px auto;
 	display: block;
 	width: 80%;
-	padding: 8px;
+    padding: 8px;
 	border: 1px solid gray;
 }
 
@@ -284,14 +315,14 @@ header{
 	width: auto;
 	height: auto;
     position: absolute;
-    top :15%;
+    top :14%;
     left: 25%;
     display: none;
 
 }
 
 .block2{
-    height: 570px;
+    height: 550px;
 	width: 600px;
 	background-color: white;
 	text-align: center;
@@ -336,6 +367,28 @@ header{
 	top: 0;
 	right: 10px;
 	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+.successfull{
+    top :50%;
+    left: 35%;   
+    height: 25px;
+	width: 380px;
+	background-color: white;
+    padding: 20px;
+    display: none;
+    position: absolute;
+	border-radius: 4px;
+}
+
+.close3 {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 25px;
 	color: #333;
 	transform: rotate(45deg);
 	cursor: pointer;
