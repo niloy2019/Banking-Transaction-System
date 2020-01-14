@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="tran.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>The World Bank</title>
     <style>
         .k{
-            height: 1000px;
+            height: 1200px;
             width: 100%;
             background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("m.jpg");
             background-size: cover;
             color: green;
             font-size: 50px;
             font-style: italic;
+        }
+
+        .slider{
+           
+            width: 100%;
         }
     </style>
 </head>
@@ -26,7 +32,7 @@
     <div class="main">
 
         <div class="logo">
-            <img src="l.png" alt="">
+            <a href="sampl.html"><img src="l.png" alt=""></a>
         </div>
 
     
@@ -40,16 +46,30 @@
 
   </div>
   
-<!------------------------------------ -----------------------------------for body-------------------------------------------------------------->
+<!------------------------------------------------------------------------for body-------------------------------------------------------------->
 <!------------------------------------------------------------Write Your Code Here---------------------------------------------------------->
   <div class="k">
-            <br>
-            <p>Welcome to World Bank....</p>
-            <br>
-            <br>
-            <p>Live More Bank Less With Our Bank </p>
+           
+            <!-- <p>Live More Bank Less With Our Bank </p> --> 
 
+            <div class="w3-content w3-section" style="max-width: 1350px">
+     
+                <img  class="mySlides"src="slider1.PNG" class="slider" alt="" style="width: 100%; height: 500px;">
+                <img  class="mySlides"src="slider2.PNG" class="slider" alt="" style="width: 100%; height: 500px;">
+                <img  class="mySlides"src="slider3.PNG" class="slider" alt="" style="width: 100%; height: 500px;">
+                <img  class="mySlides"src="slider4.PNG" class="slider" alt="" style="width: 100%; height: 500px;">
+                <img  class="mySlides"src="slider5.jpg" class="slider" alt="" style="width: 100%; height: 500px;">
+            
+              </div>
+              
+            <!-- <br> -->
+            <!-- <br>
+               <p style="color: white;">Welcome to World Bank....</p> -->
+
+               <img src="homeworld.PNG" alt="">
   </div>
+
+  
   <!--------------------------------------------------------------- for footer------------------------------------------------------------->
 
   <div class="footer">
@@ -139,4 +159,22 @@
  </div>
     
 </body>
+
+<script>
+    var myIndex=0;
+carousel();
+
+function carousel(){
+var i;
+var x=document.getElementsByClassName("mySlides");
+for(i=0;i<x.length;i++){
+    x[i].style.display="none";
+}
+myIndex++;
+if(myIndex>x.length){myIndex=1}
+x[myIndex-1].style.display="block";
+setTimeout(carousel,3000);//change image evry 2 second
+}
+</script>    
+
 </html>
