@@ -113,7 +113,7 @@ header{
 
 .m{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(home.jpg);
-    background-size: cover;
+    background-size: 100%;
 }
 
 /* ---------for Pin Number------------*/
@@ -194,7 +194,7 @@ header{
 }
 .w{
     color: white;
-    font-family:sans-serif;
+    /* font-family:sans-serif; */
     font-size: 12px;
      list-style-type: none;
      text-align: left;
@@ -203,7 +203,7 @@ header{
 }
 .h{
       color: white;
-    font-family:sans-serif;
+    /* font-family:sans-serif; */
     font-size: 12px;
     text-decoration: none;
     list-style-type: none;
