@@ -250,7 +250,7 @@ function validateSignUp(){
 
     let b=Number(by)
     if(b<1900 || b>2020){
-        document.getElementById("by").innerHTML="*Please Enter a Valid Year"
+        document.getElementById("by").innerHTML="*Year should be between 1990 and 2020"
         return false 
     }
     if(Math.abs(b-2020)<18){
