@@ -249,8 +249,8 @@ function validateSignUp(){
     }
 
     let b=Number(by)
-    if(b<1900 && b>2020){
-        document.getElementById("by").innerHTML="*Please Enter a Valid Age"
+    if(b<1900 || b>2020){
+        document.getElementById("by").innerHTML="*Please Enter a Valid Year"
         return false 
     }
     if(Math.abs(b-2020)<18){
