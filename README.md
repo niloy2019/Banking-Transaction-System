@@ -1,13 +1,25 @@
 # Banking Transaction System : 
 
-## Technology Used : 
-       HTML, CSS, JavaScript ,LocalStorage
+## Author Name : 
+#### Niloy Chakraborty
+
+## Application Name : 
+#### Library Management System
+
+## Objective : 
+####                To Make an Software that helps the Customer to do Banking Transaction through Online . 
+
+
+## Technology Used :        HTML, CSS, JavaScript ,LocalStorage
        
 ## Description :
-        This is an Banking Web Application which is created with HTML,CSS and JavaScript . User can Rgister
-        themselves in the Website and the they can login and They can perform Transaction (withdraw/Deposit)
-        to their account. user's login information and account balance will be stored in LocalStorage of the
-        Browser.More about the Project is explained below.
+#####        This is an Banking Web Application which is created with HTML,CSS and JavaScript . User can Rgister
+#####        themselves in the Website and the they can login and They can perform Transaction (withdraw/Deposit)
+#####        to their account. user's login information and account balance will be stored in LocalStorage of the
+#####        Browser.More about the Project is explained below.
+
+
+##  How It Works
         
         -->Firstly user have to sign up to thi Website . One Sign up fform will up. the Register form is done
             with total validation wih JavScript .user cannot enter Invalid values to the Fields. Only the us-
