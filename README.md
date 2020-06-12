@@ -7,10 +7,11 @@
   Library Management System
 
 ## Objective : 
-####                To Make an Software that helps the Customer to do Banking Transaction through Online . 
+  To Make an Software that helps the Customer to do Banking Transaction through Online . 
 
 
-## Technology Used :        HTML, CSS, JavaScript ,LocalStorage
+## Technology Used :      
+   HTML, CSS, JavaScript ,LocalStorage
        
 ## Description :
   This is an Banking Web Application which is created with HTML,CSS and JavaScript . User can Rgister
