@@ -22,11 +22,11 @@
 
 ##  How It Works
         
-  -->Firstly user have to sign up to thi Website . One Sign up fform will up. the Register form is done
+         -->Firstly user have to sign up to thi Website . One Sign up fform will up. the Register form is done
             with total validation wih JavScript .user cannot enter Invalid values to the Fields. Only the us-
             ername and passwor will be stored in LocalStoarge .
             
-  -->Then, User have to login using the same credential the have Registered. the username and password
+        -->Then, User have to login using the same credential the have Registered. the username and password
            will be fetched from the Local Storage and will be validated with the user's entered credentials.
            If,login is successfull, User will be Redirected to he Home Page .
        
