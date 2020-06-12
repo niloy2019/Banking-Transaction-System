@@ -34,8 +34,9 @@
         -->One Dummmy footer is added in the every Page of the Website .
         
               That's all about this Project . This is an Dummy Bank Website . This project is crated based on 
-        the requirement of my Trainer.You can see the Images of the Project given below .
-        thank You for Visiting .
+        the requirement gievn to me . You can see the Images of the Project given below .
+        
+        Thank You for Visiting .
  
 
 # Images of Project :
